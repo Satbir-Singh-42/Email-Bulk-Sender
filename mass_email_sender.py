@@ -134,7 +134,7 @@ def section_card(parent, title, **kw):
 class MassEmailSender:
     def __init__(self, root):
         self.root = root
-        self.root.title("MailBlast Pro — Mass Email Sender")
+        self.root.title("Email Bulk Sender")
         self.root.geometry("1150x800")
         self.root.minsize(960, 680)
         self.root.configure(bg=BG)
@@ -169,7 +169,7 @@ class MassEmailSender:
         logo_frame.pack(side=LEFT, padx=20)
         Label(
             logo_frame,
-            text="MailBlast Pro",
+            text="Email Bulk Sender",
             font=("Segoe UI", 16, "bold"),
             fg=ACCENT,
             bg=PANEL,
